@@ -1,4 +1,6 @@
 import MembershipCard from "~/components/MembershipCard";
+import type { LoaderArgs } from "@remix-run/node";
+import { requireUserId } from "~/session.server";
 
 export default function Memberships() {
   return (
@@ -26,3 +28,9 @@ export default function Memberships() {
     </div>
   );
 }
+
+export const loader = async ({ request }: LoaderArgs) => {
+  await requireUserId(request);
+
+  return null;
+};
