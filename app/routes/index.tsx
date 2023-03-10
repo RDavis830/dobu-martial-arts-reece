@@ -1,4 +1,12 @@
 import { Link } from "@remix-run/react";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  PinterestShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  PinterestIcon,
+} from "react-share";
 
 import { useOptionalUser } from "~/utils";
 import photo1 from "~/assets/jpg/344017850-H.jpg";
@@ -43,6 +51,19 @@ export default function Index() {
           </div>
         </div>
       </main>
+      <div>
+        <FacebookShareButton url="google.com">
+          <FacebookIcon round />
+        </FacebookShareButton>
+
+        <TwitterShareButton url="">
+          <TwitterIcon round />
+        </TwitterShareButton>
+
+        <PinterestShareButton url="" media="">
+          <PinterestIcon round />
+        </PinterestShareButton>
+      </div>
     </>
   );
 }
