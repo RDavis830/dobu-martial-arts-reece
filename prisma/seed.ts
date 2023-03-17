@@ -60,6 +60,27 @@ async function seed() {
           hash: hashedPassword,
         },
       },
+      membershipId: basicMembership.id,
+      const intermediateMemberEmail = "intermediateMember@email.com";
+
+// cleanup the existing database
+await prisma.user
+  .delete({ where: { email: intermediateMemberEmail } })
+  .catch(() => {
+    // no worries if it doesn't exist yet
+  });
+
+await prisma.user.create({
+  data: {
+    email: intermediateMemberEmail,
+    password: {
+      create: {
+        hash: hashedPassword,
+      },
+    },
+    membershipId: intermediateMembership.id,
+  },
+});
     },
   });
 
