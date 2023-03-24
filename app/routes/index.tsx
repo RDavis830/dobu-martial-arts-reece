@@ -49,14 +49,14 @@ export default function Index() {
       </main>
       <div className="bg-gray-50 pb-2">
         <h1 className="p-5 text-2xl">Enjoy our classes any time of day</h1>
-        <div className="bg-gray-50 pb-4 lg:float-left lg:w-1/2 lg:pl-10">
-          <h1 className="font-bold">Martial art level memberships</h1>
-          <p className="pb-2">
+        <div className="mb-1 rounded bg-gray-50 hover:shadow-2xl lg:float-left lg:w-1/2 lg:pl-10">
+          <h1 className="px-5 font-bold">Martial art level memberships</h1>
+          <p className="px-5 pb-2">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur magni dolores eos qui ra tione
             voluptatem sequi nesciunt. Neque porro quisquam est.
           </p>
-          <div className="flex justify-end pr-2">
+          <div className="flex justify-end pr-5">
             <Link
               to="/membership"
               className="rounded-md bg-blue-500 px-3 py-1 font-medium text-white hover:bg-blue-300"
@@ -65,14 +65,14 @@ export default function Index() {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-50 pb-4 lg:float-right lg:w-1/2">
-          <h1 className="font-bold">Self defense course</h1>
-          <p className="pb-2">
+        <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2">
+          <h1 className="px-5 font-bold">Self defense course</h1>
+          <p className="px-5 pb-2">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur magni dolores eos qui ra tione
             voluptatem sequi nesciunt. Neque porro quisquam est.
           </p>
-          <div className="flex justify-end pr-2">
+          <div className="flex justify-end pr-5">
             <Link
               to="/membership"
               className="rounded-md bg-blue-500 px-3 py-1 font-medium text-white hover:bg-blue-300"
@@ -81,14 +81,14 @@ export default function Index() {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-50 pb-4 lg:float-left lg:w-1/2 lg:pl-10">
-          <h1 className="font-bold">Private bookings</h1>
-          <p className="pb-2">
+        <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:pl-10">
+          <h1 className="px-5 font-bold">Private bookings</h1>
+          <p className="px-5 pb-2">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur magni dolores eos qui ra tione
             voluptatem sequi nesciunt. Neque porro quisquam est.
           </p>
-          <div className="flex justify-end pr-2">
+          <div className="flex justify-end pr-5">
             <Link
               to="/membership"
               className=" rounded-md bg-blue-500 px-3 py-1 font-medium text-white hover:bg-blue-300"
@@ -97,14 +97,14 @@ export default function Index() {
             </Link>
           </div>
         </div>
-        <div className="bg-gray-50 pb-4 lg:float-right lg:w-1/2">
-          <h1 className="font-bold">Kid's memberships</h1>
-          <p className="pb-2">
+        <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2">
+          <h1 className="px-5 font-bold">Kid's memberships</h1>
+          <p className="px-5 pb-2">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur magni dolores eos qui ra tione
             voluptatem sequi nesciunt. Neque porro quisquam est.
           </p>
-          <div className="flex justify-end pr-2">
+          <div className="flex justify-end pr-5">
             <Link
               to="/membership"
               className="rounded-md bg-blue-500 px-3 py-1 font-medium text-white hover:bg-blue-300"
@@ -123,10 +123,10 @@ export default function Index() {
           />
           <div className="absolute inset-0" />
           <div className="relative left-1 pt-80 pr-10 lg:right-12 lg:left-80 lg:float-right lg:w-1/2 lg:pt-10">
-            <h1 className="text-2xl font-bold shadow-black drop-shadow-2xl lg:pb-2">
+            <h1 className="px-5 text-2xl font-bold shadow-black drop-shadow-2xl lg:px-0 lg:pb-2">
               Our highly trained team!
             </h1>
-            <p className="justify-start text-black">
+            <p className="justify-start px-5 text-black lg:px-0">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
@@ -143,10 +143,10 @@ export default function Index() {
           />
           <div className="absolute inset-0" />
           <div className="relative right-1 pt-80 pl-2 lg:right-72 lg:float-left lg:w-1/2 lg:pl-0 lg:pt-10">
-            <h1 className=" text-2xl font-bold shadow-black drop-shadow-2xl lg:pb-2">
+            <h1 className=" px-5 text-2xl font-bold shadow-black drop-shadow-2xl lg:px-0 lg:pb-2">
               Regular tournaments
             </h1>
-            <p className="justify-start text-black">
+            <p className="justify-start px-5 text-black lg:px-0">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.

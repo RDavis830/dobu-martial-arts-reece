@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "title": "Martial arts gym",
+      "link": "membership",
+      "imageUrl": "https://media.istockphoto.com/id/1325933746/photo/asian-malay-muay-thai-boxing-boxer-flying-kick-punching-bags-in-gym-health-club.jpg?s=1024x1024&w=is&k=20&c=tpsCGPtYZLCWUEk9-Xlz-vrmFG6SSOf9_gTV5PjXKB8=",
+      "description": "We have a range of classes in a variety of martials arts including jiu jitsu, judo, karate, and muay thai. We have experienced trainers in all these to help you achieve the best."
+    },
+    {
+      "title": "Gym",
+      "link": "membership",
+      "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "description": "Our space offers gym equipment and trainers, as well as changing facilities plus shower."
+    },
+    {
+      "title": "Lesiure",
+      "link": "membership",
+      "imageUrl": "https://media.istockphoto.com/id/489225377/photo/waiting-for-the-steam-to-work-its-magic.jpg?s=612x612&w=is&k=20&c=6vCOOKdnwn4oGBsBkvDbORQrpD7YzNVNmJ28Lsv84wo=",
+      "description": "We also have both a sauna and a stream room to suppplement a way. These can aid in the recover of your body after pyhsical exercise."
+    },
+    {
+      "title": "instructors",
+      "link": "about",
+      "imageUrl": "https://images.unsplash.com/photo-1606853852935-f9f5abd17ebc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+      "description": "We have high qulaity instrucutors in a variety of martial arts. Multiple instructors in our dojo are black belts and veterans in their respective marital art/s."
+    }
+  ]
+}
