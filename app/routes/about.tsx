@@ -24,9 +24,9 @@ export default function AboutUs() {
               Harpreet Kaur
             </h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Our fitness instructor Harpreet who holds degrees in physiotherapy
+              and sports science, bringing a wealth of knowledge and expertise
+              to their classes, ensuring safe and effective workouts.
             </p>
           </div>
         </div>
@@ -43,9 +43,10 @@ export default function AboutUs() {
               Traci santiago
             </h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Our other fitness instructor Traci, is a well-rounded expert with
+              degrees in nutrition and sports science, and experience in
+              training combat athletes to improve their strength and
+              conditioning.
             </p>
           </div>
         </div>
@@ -62,9 +63,9 @@ export default function AboutUs() {
               Mauricio Gomez
             </h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Our head martial arts instructor Mauricio is a highly skilled
+              black belt in judo, jiu-jitsu, and karate, with a passion for
+              coaching muay thai and sharing their expertise with students.
             </p>
           </div>
         </div>
@@ -79,9 +80,9 @@ export default function AboutUs() {
           <div className="float-right w-2/3 px-2">
             <h1 className="pt-20 font-bold lg:pt-28 lg:text-2xl">Sarah Nova</h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Our assistant martial arts coach Sarah, is a highly accomplished
+              5th dan in karate, with a talent for teaching and helping students
+              develop their skills.
             </p>
           </div>
         </div>
@@ -98,9 +99,9 @@ export default function AboutUs() {
               Guy Victory
             </h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Our other assistant martial arts coach Guy, is a skilled black
+              belt in judo and jiu-jitsu, with a passion for helping students
+              improve their technique and develop their skills.
             </p>
           </div>
         </div>
@@ -117,9 +118,9 @@ export default function AboutUs() {
               Morris Davis
             </h1>
             <p className="pt-3 text-sm lg:pt-5 lg:text-base">
-              Consequuntur magni dolores eos qui ratione voluptatem sequi
-              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              Fsr0igsrljhgvbir, jdfogjhsfd.
+              Another of our assistant martial arts coach Morris, is a versatile
+              black belt in karate and an accredited muay Thai coach, with
+              experience in teaching various styles.
             </p>
           </div>
         </div>

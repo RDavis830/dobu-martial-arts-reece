@@ -52,9 +52,9 @@ export default function Index() {
         <div className="mb-1 rounded bg-gray-50 hover:shadow-2xl lg:float-left lg:w-1/2 lg:pl-10">
           <h1 className="px-5 font-bold">Martial art level memberships</h1>
           <p className="px-5 pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            At DuBo martial arts we offer membership options that include access
+            to different martial arts, experienced trainers, training resources,
+            and a community for beginner to advanced practitioners.
           </p>
           <div className="flex justify-end pr-5">
             <Link
@@ -68,9 +68,9 @@ export default function Index() {
         <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2">
           <h1 className="px-5 font-bold">Self defense course</h1>
           <p className="px-5 pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our self-defense courses provide practical techniques and strategies
+            to help you stay safe in real-life situations. Taught by experienced
+            instructors, these courses are suitable for all skill levels.
           </p>
           <div className="flex justify-end pr-5">
             <Link
@@ -84,9 +84,9 @@ export default function Index() {
         <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:pl-10">
           <h1 className="px-5 font-bold">Private bookings</h1>
           <p className="px-5 pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Book a private training session with our skilled instructors for
+            personalized coaching in martial arts, self-defense, or fitness.
+            Perfect for individuals, small groups, or corporate events.
           </p>
           <div className="flex justify-end pr-5">
             <Link
@@ -100,9 +100,9 @@ export default function Index() {
         <div className="mb-1 rounded bg-gray-50 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2">
           <h1 className="px-5 font-bold">Kid's memberships</h1>
           <p className="px-5 pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our kids' martial arts memberships offer a fun and safe environment
+            for children to learn discipline, focus, and self-defense skills,
+            while promoting confidence and physical fitness.
           </p>
           <div className="flex justify-end pr-5">
             <Link
@@ -127,9 +127,9 @@ export default function Index() {
               Our highly trained team!
             </h1>
             <p className="justify-start px-5 text-black lg:px-0">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+              Our experienced and dedicated instructors are passionate about
+              martial arts and provide personalized coaching to help students of
+              all levels achieve their goals and reach their full potential.
             </p>
           </div>
         </div>
@@ -147,9 +147,10 @@ export default function Index() {
               Regular tournaments
             </h1>
             <p className="justify-start px-5 text-black lg:px-0">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+              Our martial arts tournaments offer competitors of all ages and
+              skill levels the chance to showcase their abilities in a friendly,
+              supportive environment, and win recognition for their
+              achievements.
             </p>
           </div>
         </div>
@@ -159,8 +160,8 @@ export default function Index() {
           Follow us on twitter, instagram, and facebook
         </h1>
         <p className="text-center lg:pt-3 lg:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Connect with us on social media for updates on classes, events, and
+          community news. Follow us today!
         </p>
         <div className="mt-3 flex min-w-max justify-center bg-gray-50">
           <FacebookShareButton url="google.com">
@@ -179,8 +180,9 @@ export default function Index() {
       <div>
         <div className="float-left w-3/5 bg-gray-50 lg:w-full">
           <p className=" p-5 pt-3 text-2xl lg:text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
+            Join our martial arts gym to improve your fitness, gain confidence,
+            learn self-defense skills, and become part of a supportive
+            community!
           </p>
         </div>
         <div className="float-right flex w-2/5 justify-center bg-gray-50 py-8 lg:float-left lg:w-1/2 lg:pt-8 lg:pb-4">

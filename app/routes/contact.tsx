@@ -16,9 +16,9 @@ export default function ContactUs() {
             24/7 Support
           </h1>
           <p>
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+            Our friendly customer support team is available to assist with any
+            questions or concerns you may have. Contact us via email or phone
+            for prompt assistance.
           </p>
         </div>
       </div>
@@ -36,33 +36,34 @@ export default function ContactUs() {
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:px-0 lg:pl-10">
           <h1 className="font-bold">What is the age range of your classes?</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our classes cater to a wide range of ages, from children to seniors,
+            and all skill levels, from beginners to advanced practitioners.
+            There's something for everyone!
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2 lg:px-0">
           <h1 className="font-bold">How do i make a payment online?</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Making a payment for your membership is easy and secure with our
+            online payment system. Simply follow the prompts to complete your
+            transaction and start training today!
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:px-0 lg:pl-10">
           <h1 className="font-bold">Is parking available?</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            We provide convenient on-site parking for our members, making it
+            easy to attend classes. Contact us for more information on parking
+            availability. Simply use the front parking spaces next to our
+            entrance.
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2 lg:px-0">
           <h1 className="font-bold">Are there parents and adult classes?</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our parent-child classes offer a fun and engaging way for families
+            to bond and learn martial arts skills together, promoting fitness,
+            discipline, and confidence. Sign up today!
           </p>
         </div>
       </div>
@@ -106,33 +107,33 @@ export default function ContactUs() {
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:px-0 lg:pl-10">
           <h1 className="font-bold">Address</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our martial arts gym is located in the heart of the UK at st. Helier
+            Jersey, providing a convenient and accessible location for all
+            students. Come train with us!
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2 lg:px-0">
           <h1 className="font-bold">Email/ Fax</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Need to get in touch with us? Email or fax us your questions or
+            concerns, and we'll get back to you as soon as possible. Contact
+            details available on our website.
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-left lg:w-1/2 lg:px-0 lg:pl-10">
           <h1 className="font-bold">Text/ Social media</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Stay connected with us via text or messaging! Receive updates on
+            class schedules, events, and other important information straight to
+            your mobile device. Sign up now!
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2 lg:px-0">
           <h1 className="font-bold">Landline/ Mobile</h1>
           <p className="pb-2">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ra tione
-            voluptatem sequi nesciunt. Neque porro quisquam est.
+            Our friendly staff are available to take your call and answer any
+            questions you may have about our classes, memberships, or other
+            related inquiries. Call us now!
           </p>
         </div>
         <h1 className="text-center text-3xl font-bold">
@@ -151,8 +152,9 @@ export default function ContactUs() {
           />
           <h1 className="text-center text-xl font-bold">The owner</h1>
           <p className="px-3 text-center text-sm">
-            Consequuntur magni dolores eos qui ratione voluptatem sequi
-            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
+            Do you have a question or concern that you'd like to discuss with
+            the owner? Contact us via email or phone to schedule a consultation
+            with our owner!
           </p>
         </div>
         <div className="float-right w-1/3 bg-gray-50 hover:bg-white">
@@ -163,8 +165,9 @@ export default function ContactUs() {
           />
           <h1 className="text-center text-xl font-bold">The manager</h1>
           <p className="px-3 text-center text-sm">
-            Consequuntur magni dolores eos qui ratione voluptatem sequi
-            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
+            Our dedicated gym manager is here to assist with any questions or
+            concerns you may have about our classes, memberships, or other
+            related inquiries. Contact us today!
           </p>
         </div>
         <div className="float-right w-1/3 bg-gray-50 hover:bg-white">
@@ -175,8 +178,9 @@ export default function ContactUs() {
           />
           <h1 className="text-center text-xl font-bold">Trainers</h1>
           <p className="px-3 text-center text-sm">
-            Consequuntur magni dolores eos qui ratione voluptatem sequi
-            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
+            Need advice or guidance from one of our experienced trainers?
+            Contact us to schedule a consultation and receive personalized
+            recommendations for your training needs.
           </p>
         </div>
       </div>
