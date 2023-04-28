@@ -55,7 +55,7 @@ export default function Index() {
         </div>
       </main>
       <div className="bg-gray-50 pb-2">
-        <h1 className="p-5 text-2xl">Enjoy our classes any time of day</h1>
+        <h1 className="p-5 text-2xl">Enjoy our classes any time of day 24/7</h1>
         <div className="mb-1 rounded bg-gray-50 hover:shadow-2xl lg:float-left lg:w-1/2 lg:pl-10">
           <h1 className="px-5 font-bold">Martial art level memberships</h1>
           <p className="px-5 pb-2">
