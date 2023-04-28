@@ -7,7 +7,7 @@ import { Form, Link } from "@remix-run/react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const user = useOptionalUser();
-  console.log({ user });
+
   return (
     <header className="bg-blue-600 md:flex md:justify-between">
       <div className="flex items-center justify-between px-4 py-3">

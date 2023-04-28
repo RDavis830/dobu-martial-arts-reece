@@ -12,6 +12,7 @@ import {
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 import { getUser } from "./session.server";
 import Navbar from "./components/Navbar";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
@@ -19,7 +20,7 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Remix Notes",
+  title: "DuBo Martial Arts",
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -37,11 +38,13 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
-        <Navbar />
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
+        <ParallaxProvider>
+          <Navbar />
+          <Outlet />
+          <ScrollRestoration />
+          <Scripts />
+          <LiveReload />
+        </ParallaxProvider>
       </body>
     </html>
   );

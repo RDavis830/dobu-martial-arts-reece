@@ -9,7 +9,14 @@ import {
 } from "react-share";
 
 import { useOptionalUser } from "~/utils";
-import Photo1 from "~/assets/jpg/coolPic.jpg";
+import { MetaFunction } from "@remix-run/node";
+import { Parallax } from "react-scroll-parallax";
+
+export const meta: MetaFunction = () => ({
+  title: "Welcome to DoBu Martial Arts",
+  description:
+    "A UK based martial arts gym offering various types of self defense training for children and adults!",
+});
 
 export default function Index() {
   const user = useOptionalUser();
@@ -18,7 +25,7 @@ export default function Index() {
       <main className="min-h-screen bg-gray-50 md:flex md:items-center md:justify-center">
         <div className="relative flex h-screen w-full items-center justify-center overflow-hidden shadow-xl">
           <img
-            className="absolute inset-0 h-full w-full object-cover object-center pb-2"
+            className="absolute inset-0 h-full w-full object-cover object-center"
             src="https://images.unsplash.com/photo-1598300606161-4019d0dfec28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80"
             alt="Youth karate"
           />

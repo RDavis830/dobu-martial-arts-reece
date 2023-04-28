@@ -1,4 +1,11 @@
 import { Link } from "@remix-run/react";
+import { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => ({
+  title: "Contact DuBo",
+  description:
+    "Contact or locate DuBo Martial Arts for any of your queiries today",
+});
 
 export default function ContactUs() {
   return (
@@ -77,7 +84,7 @@ export default function ContactUs() {
       <main className="min-h-screen bg-gray-50 md:flex md:items-center md:justify-center">
         <div className="relative flex h-screen w-full items-center justify-center overflow-hidden shadow-xl">
           <img
-            className="absolute inset-0 h-full w-full object-cover object-center pb-2"
+            className="absolute inset-0 h-full w-full object-cover object-center"
             src="https://images.unsplash.com/photo-1598300606161-4019d0dfec28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80"
             alt="Youth karate"
           />
@@ -124,8 +131,8 @@ export default function ContactUs() {
           <h1 className="font-bold">Text/ Social media</h1>
           <p className="pb-2">
             Stay connected with us via text or messaging! Receive updates on
-            class schedules, events, and other important information straight to
-            your mobile device. Sign up now!
+            class schedules, events, and other important information to your
+            mobile device. Sign up now!
           </p>
         </div>
         <div className="mb-1 rounded-2xl bg-gray-50 px-5 pb-4 hover:shadow-2xl lg:float-right lg:w-1/2 lg:px-0">

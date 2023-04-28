@@ -8,6 +8,12 @@ import {
 import { requireUserId } from "~/session.server";
 import { useUser } from "~/utils";
 import { Form, useLoaderData, useSubmit } from "@remix-run/react";
+import { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => ({
+  title: "DuBo Membership Options",
+  description: "Discover our varying range of memberships to suit you",
+});
 
 export const loader = async ({ request }: LoaderArgs) => {
   await requireUserId(request);
@@ -51,7 +57,7 @@ export default function Memberships() {
         Memberships
       </h1>
       <Form method="post" onChange={(event) => handleChange(event)}>
-        <ul className="mx-auto max-w-xl p-4">
+        <ul className="mx-auto max-w-full p-4">
           {memberships.map(({ id, level, description, price }) => (
             <MembershipCard
               key={id}
